@@ -7,7 +7,7 @@ public class getRequest {
 	
 	@Test
 	public Karate runAllTest() {
-		return Karate.run("Variable").relativeTo(getClass());
+		return Karate.run("ValidatingDataUsingFile").relativeTo(getClass());
 	}
 
 	//@Test

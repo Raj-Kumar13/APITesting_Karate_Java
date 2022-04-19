@@ -2093,3 +2093,194 @@ classpath:com/api/automation/getRequest/XmlValidation.feature:16
 20:53:46.959 [main] INFO  com.intuit.karate - karate.env system property was: null 
 20:53:47.001 [main] INFO  com.intuit.karate - [print]  value of a ==>  10 
 20:53:47.003 [main] INFO  com.intuit.karate - [print]  userName ==>   Rocky  
+21:33:51.474 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:33:53.025 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:33:53.095 [main] INFO  com.intuit.karate - [print]  value of a ==>  10 
+21:33:53.098 [main] INFO  com.intuit.karate - [print]  userName ==>   Rocky  
+21:33:53.118 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:33:53.140 [main] ERROR com.intuit.karate - classpath:com/api/automation/getRequest/Variable.feature:10
+* print " Value of a ==> ",a
+js failed:
+>>>>
+01: karate.log('[print]'," Value of a ==> ",a)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "a" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:com/api/automation/getRequest/Variable.feature:10
+21:42:14.369 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:42:15.927 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:42:15.999 [main] INFO  com.intuit.karate - [print]  value of a ==>  10 
+21:42:16.002 [main] INFO  com.intuit.karate - [print]  userName ==>   Rocky  
+21:42:16.021 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:42:16.060 [main] ERROR com.intuit.karate - classpath:com/api/automation/getRequest/Variable.feature:14
+* print " Value of a ==> ",a
+js failed:
+>>>>
+01: karate.log('[print]'," Value of a ==> ",a)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "a" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:com/api/automation/getRequest/Variable.feature:14
+21:42:16.087 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:42:16.096 [main] ERROR com.intuit.karate - classpath:com/api/automation/getRequest/Variable.feature:18
+* print " Background value ==>  ",backG_value
+js failed:
+>>>>
+01: karate.log('[print]'," Background value ==>  ",backG_value)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "backG_value" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:com/api/automation/getRequest/Variable.feature:18
+21:43:27.100 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:43:28.697 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:43:28.763 [main] INFO  com.intuit.karate - [print]  ================= Scenario -1 ========================================= 
+21:43:28.765 [main] INFO  com.intuit.karate - [print]  value of a ==>  10 
+21:43:28.766 [main] INFO  com.intuit.karate - [print]  userName ==>   Rocky  
+21:43:28.783 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:43:28.787 [main] INFO  com.intuit.karate - [print]  ================= Scenario -2 ========================================= 
+21:43:28.806 [main] ERROR com.intuit.karate - classpath:com/api/automation/getRequest/Variable.feature:16
+* print " Value of a ==> ",a
+js failed:
+>>>>
+01: karate.log('[print]'," Value of a ==> ",a)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "a" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:com/api/automation/getRequest/Variable.feature:16
+21:43:28.830 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:43:28.834 [main] INFO  com.intuit.karate - [print]  ================= Scenario -3 ========================================= 
+21:43:28.840 [main] ERROR com.intuit.karate - classpath:com/api/automation/getRequest/Variable.feature:21
+* print " Background value ==>  ",backG_value
+js failed:
+>>>>
+01: karate.log('[print]'," Background value ==>  ",backG_value)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "backG_value" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:com/api/automation/getRequest/Variable.feature:21
+21:44:23.947 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:44:25.560 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:44:25.624 [main] INFO  com.intuit.karate - [print]  ================= Scenario -1 ========================================= 
+21:44:25.628 [main] INFO  com.intuit.karate - [print]  value of a ==>  10 
+21:44:25.629 [main] INFO  com.intuit.karate - [print]  userName ==>   Rocky  
+21:44:25.649 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:44:25.655 [main] INFO  com.intuit.karate - [print]  ================= Scenario -2 ========================================= 
+21:44:25.682 [main] ERROR com.intuit.karate - classpath:com/api/automation/getRequest/Variable.feature:16
+* print " Value of a ==> ",a
+js failed:
+>>>>
+01: karate.log('[print]'," Value of a ==> ",a)
+<<<<
+org.graalvm.polyglot.PolyglotException: ReferenceError: "a" is not defined
+- <js>.:program(Unnamed:1)
+
+classpath:com/api/automation/getRequest/Variable.feature:16
+21:44:25.705 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:44:25.712 [main] INFO  com.intuit.karate - [print]  ================= Scenario -3 ========================================= 
+21:44:25.715 [main] INFO  com.intuit.karate - [print]  Background value ==>   10 
+21:44:25.718 [main] INFO  com.intuit.karate - [print]  Background user Name ==>   BackGround User - Remo 
+21:44:25.732 [main] INFO  com.intuit.karate - [print]  add 10 to Background value ==>   20 
+20:54:52.213 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:54:55.507 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:54:56.258 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9090/noraml/webapi/all
+1 > Accept: application/json
+1 > Host: localhost:9090
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+20:54:56.350 [main] ERROR com.intuit.karate - karate.org.apache.http.conn.HttpHostConnectException: Connect to localhost:9090 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: no further information, http call failed after 780 milliseconds for url: http://localhost:9090/noraml/webapi/all
+20:54:56.352 [main] ERROR com.intuit.karate - classpath:com/api/automation/getRequest/ValidatingDataUsingFile.feature:9
+When method get
+http call failed after 780 milliseconds for url: http://localhost:9090/noraml/webapi/all
+classpath:com/api/automation/getRequest/ValidatingDataUsingFile.feature:9
+20:58:00.393 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:58:02.438 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:58:03.044 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9090/noraml/webapi/all
+1 > Accept: application/json
+1 > Host: localhost:9090
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+20:58:03.849 [main] DEBUG com.intuit.karate - response time in milliseconds: 799
+1 < 404
+1 < Vary: Origin
+1 < Vary: Access-Control-Request-Method
+1 < Vary: Access-Control-Request-Headers
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 19 Apr 2022 15:28:03 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"timestamp":"2022-04-19T15:28:03.628+0000","status":404,"error":"Not Found","message":"No message available","path":"/noraml/webapi/all"}
+20:58:03.902 [main] ERROR com.intuit.karate - classpath:com/api/automation/getRequest/ValidatingDataUsingFile.feature:10
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 799, url: http://localhost:9090/noraml/webapi/all, response: 
+{"timestamp":"2022-04-19T15:28:03.628+0000","status":404,"error":"Not Found","message":"No message available","path":"/noraml/webapi/all"}
+classpath:com/api/automation/getRequest/ValidatingDataUsingFile.feature:10
+20:58:44.413 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:58:46.300 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:58:46.809 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9090/normal/webapi/all
+1 > Accept: application/json
+1 > Host: localhost:9090
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+20:58:46.918 [main] DEBUG com.intuit.karate - response time in milliseconds: 103
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 19 Apr 2022 15:28:46 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+21:05:57.687 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:05:59.619 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:06:00.190 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9090/normal/webapi/all
+1 > Accept: application/json
+1 > Host: localhost:9090
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:06:00.243 [main] DEBUG com.intuit.karate - response time in milliseconds: 49
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Tue, 19 Apr 2022 15:36:00 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
