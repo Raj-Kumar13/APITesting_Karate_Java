@@ -2284,3 +2284,835 @@ classpath:com/api/automation/getRequest/ValidatingDataUsingFile.feature:10
 1 < Keep-Alive: timeout=60
 1 < Connection: keep-alive
 [{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]}]
+20:47:24.947 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:47:26.452 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:47:26.980 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9090/normal/webapi/add
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 243
+1 > Host: localhost:9090
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":3,"jobTitle":"Software Engg-3","jobDescription":"To develop andriod application","experience":["Micro Soft","JP Morgan","Youtube"],"project":[{"projectName":"Streaming scervic App","technology":["Kotlin","SQL Lite","Gradle","pega"]}]}
+
+20:47:27.019 [main] DEBUG com.intuit.karate - response time in milliseconds: 37
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 20 Apr 2022 15:17:27 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":3,"jobTitle":"Software Engg-3","jobDescription":"To develop andriod application","experience":["Micro Soft","JP Morgan","Youtube"],"project":[{"projectName":"Streaming scervic App","technology":["Kotlin","SQL Lite","Gradle","pega"]}]}
+20:47:27.027 [main] INFO  com.intuit.karate - [print] {
+  "jobId": 3,
+  "jobTitle": "Software Engg-3",
+  "jobDescription": "To develop andriod application",
+  "experience": [
+    "Micro Soft",
+    "JP Morgan",
+    "Youtube"
+  ],
+  "project": [
+    {
+      "projectName": "Streaming scervic App",
+      "technology": [
+        "Kotlin",
+        "SQL Lite",
+        "Gradle",
+        "pega"
+      ]
+    }
+  ]
+}
+ 
+20:47:27.029 [main] ERROR com.intuit.karate - classpath:com/api/automation/postRequest/postRequest.feature:13
+And match response.jobId:3
+no step-definition method match found for: match response.jobId:3
+classpath:com/api/automation/postRequest/postRequest.feature:13
+20:48:35.870 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:48:36.986 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:48:37.416 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9090/normal/webapi/add
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 243
+1 > Host: localhost:9090
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":3,"jobTitle":"Software Engg-3","jobDescription":"To develop andriod application","experience":["Micro Soft","JP Morgan","Youtube"],"project":[{"projectName":"Streaming scervic App","technology":["Kotlin","SQL Lite","Gradle","pega"]}]}
+
+20:48:37.448 [main] DEBUG com.intuit.karate - response time in milliseconds: 29
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 20 Apr 2022 15:18:37 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":3,"jobTitle":"Software Engg-3","jobDescription":"To develop andriod application","experience":["Micro Soft","JP Morgan","Youtube"],"project":[{"projectName":"Streaming scervic App","technology":["Kotlin","SQL Lite","Gradle","pega"]}]}
+20:48:37.458 [main] INFO  com.intuit.karate - [print] {
+  "jobId": 3,
+  "jobTitle": "Software Engg-3",
+  "jobDescription": "To develop andriod application",
+  "experience": [
+    "Micro Soft",
+    "JP Morgan",
+    "Youtube"
+  ],
+  "project": [
+    {
+      "projectName": "Streaming scervic App",
+      "technology": [
+        "Kotlin",
+        "SQL Lite",
+        "Gradle",
+        "pega"
+      ]
+    }
+  ]
+}
+ 
+20:52:27.949 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:52:28.998 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:52:29.053 [main] ERROR com.intuit.karate - classpath:com/api/automation/postRequest/postRequest.feature:8
+And header (Accept :"application/json", Content-Type:"application/json"
+no step-definition method match found for: header (Accept :"application/json", Content-Type:"application/json"
+classpath:com/api/automation/postRequest/postRequest.feature:8
+20:52:55.991 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:52:57.054 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:52:57.121 [main] ERROR com.intuit.karate - classpath:com/api/automation/postRequest/postRequest.feature:8
+And headers (Accept :"application/json", Content-Type:"application/json"
+js failed:
+>>>>
+01: (Accept :"application/json", Content-Type:"application/json"
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:8 Expected ) but found :
+(Accept :"application/json", Content-Type:"application/json"
+        ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:401)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:141)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:137)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1252)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2205)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2124)
+- com.intuit.karate.core.ScenarioEngine.evalAsMap(ScenarioEngine.java:332)
+
+classpath:com/api/automation/postRequest/postRequest.feature:8
+20:53:29.688 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:53:30.724 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:53:30.779 [main] ERROR com.intuit.karate - classpath:com/api/automation/postRequest/postRequest.feature:8
+And headers (Accept: "application/json", Content-Type: "application/json"
+js failed:
+>>>>
+01: (Accept: "application/json", Content-Type: "application/json"
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:7 Expected ) but found :
+(Accept: "application/json", Content-Type: "application/json"
+       ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:401)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:141)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:137)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1252)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2205)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2124)
+- com.intuit.karate.core.ScenarioEngine.evalAsMap(ScenarioEngine.java:332)
+
+classpath:com/api/automation/postRequest/postRequest.feature:8
+20:54:47.092 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:54:48.207 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:54:48.314 [main] ERROR com.intuit.karate - classpath:com/api/automation/postRequest/postRequest.feature:10
+And headers (Accept: "application/json", Content-Type: "application/json"
+js failed:
+>>>>
+01: (Accept: "application/json", Content-Type: "application/json"
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:7 Expected ) but found :
+(Accept: "application/json", Content-Type: "application/json"
+       ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:401)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:141)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:137)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1252)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2205)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2124)
+- com.intuit.karate.core.ScenarioEngine.evalAsMap(ScenarioEngine.java:332)
+
+classpath:com/api/automation/postRequest/postRequest.feature:10
+20:55:55.386 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:55:56.467 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:55:56.902 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9090/normal/webapi/add
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 243
+1 > Host: localhost:9090
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":4,"jobTitle":"Software Engg-4","jobDescription":"To develop andriod application","experience":["Micro Soft","JP Morgan","Youtube"],"project":[{"projectName":"Streaming scervic App","technology":["Kotlin","SQL Lite","Gradle","pega"]}]}
+
+20:55:56.942 [main] DEBUG com.intuit.karate - response time in milliseconds: 37
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 20 Apr 2022 15:25:56 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":4,"jobTitle":"Software Engg-4","jobDescription":"To develop andriod application","experience":["Micro Soft","JP Morgan","Youtube"],"project":[{"projectName":"Streaming scervic App","technology":["Kotlin","SQL Lite","Gradle","pega"]}]}
+20:55:56.953 [main] INFO  com.intuit.karate - [print] {
+  "jobId": 4,
+  "jobTitle": "Software Engg-4",
+  "jobDescription": "To develop andriod application",
+  "experience": [
+    "Micro Soft",
+    "JP Morgan",
+    "Youtube"
+  ],
+  "project": [
+    {
+      "projectName": "Streaming scervic App",
+      "technology": [
+        "Kotlin",
+        "SQL Lite",
+        "Gradle",
+        "pega"
+      ]
+    }
+  ]
+}
+ 
+21:06:42.443 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:06:44.069 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:06:44.582 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9090/normal/webapi/all
+1 > Accept: application/xml
+1 > Host: localhost:9090
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:06:44.839 [main] DEBUG com.intuit.karate - response time in milliseconds: 251
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/xml
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 20 Apr 2022 15:36:44 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+<List><item><jobId>1</jobId><jobTitle>Software Engg</jobTitle><jobDescription>To develop andriod application</jobDescription><experience><experience>Google</experience><experience>Apple</experience><experience>Mobile Iron</experience></experience><project><project><projectName>Movie App</projectName><technology><technology>Kotlin</technology><technology>SQL Lite</technology><technology>Gradle</technology></technology></project></project></item><item><jobId>2</jobId><jobTitle>Software Engg</jobTitle><jobDescription>To develop andriod application</jobDescription><experience><experience>Capgemini</experience><experience>TCS</experience><experience>Infosys</experience></experience><project><project><projectName>Movie App</projectName><technology><technology>Karate</technology><technology>postman</technology><technology>Rest-Assured</technology></technology></project></project></item><item><jobId>3</jobId><jobTitle>Software Engg-3</jobTitle><jobDescription>To develop andriod application</jobDescription><experience><experience>Micro Soft</experience><experience>JP Morgan</experience><experience>Youtube</experience></experience><project><project><projectName>Streaming scervic App</projectName><technology><technology>Kotlin</technology><technology>SQL Lite</technology><technology>Gradle</technology><technology>pega</technology></technology></project></project></item><item><jobId>3</jobId><jobTitle>Software Engg-3</jobTitle><jobDescription>To develop andriod application</jobDescription><experience><experience>Micro Soft</experience><experience>JP Morgan</experience><experience>Youtube</experience></experience><project><project><projectName>Streaming scervic App</projectName><technology><technology>Kotlin</technology><technology>SQL Lite</technology><technology>Gradle</technology><technology>pega</technology></technology></project></project></item><item><jobId>4</jobId><jobTitle>Software Engg-4</jobTitle><jobDescription>To develop andriod application</jobDescription><experience><experience>Micro Soft</experience><experience>JP Morgan</experience><experience>Youtube</experience></experience><project><project><projectName>Streaming scervic App</projectName><technology><technology>Kotlin</technology><technology>SQL Lite</technology><technology>Gradle</technology><technology>pega</technology></technology></project></project></item></List>
+21:06:44.939 [main] INFO  com.intuit.karate - [print] <List>
+  <item>
+    <jobId>1</jobId>
+    <jobTitle>Software Engg</jobTitle>
+    <jobDescription>To develop andriod application</jobDescription>
+    <experience>
+      <experience>Google</experience>
+      <experience>Apple</experience>
+      <experience>Mobile Iron</experience>
+    </experience>
+    <project>
+      <project>
+        <projectName>Movie App</projectName>
+        <technology>
+          <technology>Kotlin</technology>
+          <technology>SQL Lite</technology>
+          <technology>Gradle</technology>
+        </technology>
+      </project>
+    </project>
+  </item>
+  <item>
+    <jobId>2</jobId>
+    <jobTitle>Software Engg</jobTitle>
+    <jobDescription>To develop andriod application</jobDescription>
+    <experience>
+      <experience>Capgemini</experience>
+      <experience>TCS</experience>
+      <experience>Infosys</experience>
+    </experience>
+    <project>
+      <project>
+        <projectName>Movie App</projectName>
+        <technology>
+          <technology>Karate</technology>
+          <technology>postman</technology>
+          <technology>Rest-Assured</technology>
+        </technology>
+      </project>
+    </project>
+  </item>
+  <item>
+    <jobId>3</jobId>
+    <jobTitle>Software Engg-3</jobTitle>
+    <jobDescription>To develop andriod application</jobDescription>
+    <experience>
+      <experience>Micro Soft</experience>
+      <experience>JP Morgan</experience>
+      <experience>Youtube</experience>
+    </experience>
+    <project>
+      <project>
+        <projectName>Streaming scervic App</projectName>
+        <technology>
+          <technology>Kotlin</technology>
+          <technology>SQL Lite</technology>
+          <technology>Gradle</technology>
+          <technology>pega</technology>
+        </technology>
+      </project>
+    </project>
+  </item>
+  <item>
+    <jobId>3</jobId>
+    <jobTitle>Software Engg-3</jobTitle>
+    <jobDescription>To develop andriod application</jobDescription>
+    <experience>
+      <experience>Micro Soft</experience>
+      <experience>JP Morgan</experience>
+      <experience>Youtube</experience>
+    </experience>
+    <project>
+      <project>
+        <projectName>Streaming scervic App</projectName>
+        <technology>
+          <technology>Kotlin</technology>
+          <technology>SQL Lite</technology>
+          <technology>Gradle</technology>
+          <technology>pega</technology>
+        </technology>
+      </project>
+    </project>
+  </item>
+  <item>
+    <jobId>4</jobId>
+    <jobTitle>Software Engg-4</jobTitle>
+    <jobDescription>To develop andriod application</jobDescription>
+    <experience>
+      <experience>Micro Soft</experience>
+      <experience>JP Morgan</experience>
+      <experience>Youtube</experience>
+    </experience>
+    <project>
+      <project>
+        <projectName>Streaming scervic App</projectName>
+        <technology>
+          <technology>Kotlin</technology>
+          <technology>SQL Lite</technology>
+          <technology>Gradle</technology>
+          <technology>pega</technology>
+        </technology>
+      </project>
+    </project>
+  </item>
+</List>
+ 
+21:09:59.769 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: com/api/automation/postRequest/postRequest.feature - mismatched input '<' expecting <EOF>
+21:16:21.235 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:16:23.038 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:16:23.698 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9090/normal/webapi/add
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 243
+1 > Host: localhost:9090
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":4,"jobTitle":"Software Engg-4","jobDescription":"To develop andriod application","experience":["Micro Soft","JP Morgan","Youtube"],"project":[{"projectName":"Streaming scervic App","technology":["Kotlin","SQL Lite","Gradle","pega"]}]}
+
+21:16:23.764 [main] DEBUG com.intuit.karate - response time in milliseconds: 62
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 20 Apr 2022 15:46:23 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":4,"jobTitle":"Software Engg-4","jobDescription":"To develop andriod application","experience":["Micro Soft","JP Morgan","Youtube"],"project":[{"projectName":"Streaming scervic App","technology":["Kotlin","SQL Lite","Gradle","pega"]}]}
+21:16:23.782 [main] INFO  com.intuit.karate - [print] {
+  "jobId": 4,
+  "jobTitle": "Software Engg-4",
+  "jobDescription": "To develop andriod application",
+  "experience": [
+    "Micro Soft",
+    "JP Morgan",
+    "Youtube"
+  ],
+  "project": [
+    {
+      "projectName": "Streaming scervic App",
+      "technology": [
+        "Kotlin",
+        "SQL Lite",
+        "Gradle",
+        "pega"
+      ]
+    }
+  ]
+}
+ 
+21:16:24.034 [main] DEBUG com.intuit.karate - request:
+2 > POST http://localhost:9090/normal/webapi/add
+2 > Content-Type: application/xml; charset=UTF-8
+2 > Content-Length: 443
+2 > Host: localhost:9090
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.2)
+2 > Accept-Encoding: gzip,deflate
+<item><jobId>5</jobId><jobTitle>Software Engg-5</jobTitle><jobDescription>To develop IOS application</jobDescription><experience><experience>Google</experience><experience>Apple</experience><experience>Mobile Iron</experience></experience><project><project><projectName>Booking App</projectName><technology><technology>Fullter</technology><technology>SQL Lite</technology><technology>Gradle</technology></technology></project></project></item>
+
+21:16:24.216 [main] DEBUG com.intuit.karate - response time in milliseconds: 181
+2 < 201
+2 < X-Content-Type-Options: nosniff
+2 < X-XSS-Protection: 1; mode=block
+2 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+2 < Pragma: no-cache
+2 < Expires: 0
+2 < X-Frame-Options: DENY
+2 < Content-Type: application/json
+2 < Transfer-Encoding: chunked
+2 < Date: Wed, 20 Apr 2022 15:46:23 GMT
+2 < Keep-Alive: timeout=60
+2 < Connection: keep-alive
+{"jobId":5,"jobTitle":"Software Engg-5","jobDescription":"To develop IOS application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Booking App","technology":["Fullter","SQL Lite","Gradle"]}]}
+21:49:39.914 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:49:41.960 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:49:42.555 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9090/normal/webapi/add
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 243
+1 > Host: localhost:9090
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":4,"jobTitle":"Software Engg-4","jobDescription":"To develop andriod application","experience":["Micro Soft","JP Morgan","Youtube"],"project":[{"projectName":"Streaming scervic App","technology":["Kotlin","SQL Lite","Gradle","pega"]}]}
+
+21:49:42.628 [main] DEBUG com.intuit.karate - response time in milliseconds: 68
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 20 Apr 2022 16:19:42 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":4,"jobTitle":"Software Engg-4","jobDescription":"To develop andriod application","experience":["Micro Soft","JP Morgan","Youtube"],"project":[{"projectName":"Streaming scervic App","technology":["Kotlin","SQL Lite","Gradle","pega"]}]}
+21:49:42.644 [main] INFO  com.intuit.karate - [print] {
+  "jobId": 4,
+  "jobTitle": "Software Engg-4",
+  "jobDescription": "To develop andriod application",
+  "experience": [
+    "Micro Soft",
+    "JP Morgan",
+    "Youtube"
+  ],
+  "project": [
+    {
+      "projectName": "Streaming scervic App",
+      "technology": [
+        "Kotlin",
+        "SQL Lite",
+        "Gradle",
+        "pega"
+      ]
+    }
+  ]
+}
+ 
+21:49:42.837 [main] DEBUG com.intuit.karate - request:
+2 > POST http://localhost:9090/normal/webapi/add
+2 > Accept: application/xml
+2 > Content-Type: application/xml; charset=UTF-8
+2 > Content-Length: 443
+2 > Host: localhost:9090
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.2)
+2 > Accept-Encoding: gzip,deflate
+<item><jobId>5</jobId><jobTitle>Software Engg-5</jobTitle><jobDescription>To develop IOS application</jobDescription><experience><experience>Google</experience><experience>Apple</experience><experience>Mobile Iron</experience></experience><project><project><projectName>Booking App</projectName><technology><technology>Fullter</technology><technology>SQL Lite</technology><technology>Gradle</technology></technology></project></project></item>
+
+21:49:42.849 [main] DEBUG com.intuit.karate - response time in milliseconds: 12
+2 < 201
+2 < X-Content-Type-Options: nosniff
+2 < X-XSS-Protection: 1; mode=block
+2 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+2 < Pragma: no-cache
+2 < Expires: 0
+2 < X-Frame-Options: DENY
+2 < Content-Type: application/xml
+2 < Transfer-Encoding: chunked
+2 < Date: Wed, 20 Apr 2022 16:19:42 GMT
+2 < Keep-Alive: timeout=60
+2 < Connection: keep-alive
+<Job><jobId>5</jobId><jobTitle>Software Engg-5</jobTitle><jobDescription>To develop IOS application</jobDescription><experience><experience>Google</experience><experience>Apple</experience><experience>Mobile Iron</experience></experience><project><project><projectName>Booking App</projectName><technology><technology>Fullter</technology><technology>SQL Lite</technology><technology>Gradle</technology></technology></project></project></Job>
+21:49:42.872 [main] ERROR com.intuit.karate - classpath:com/api/automation/postRequest/postRequest.feature:23
+And match response.jobId == 5
+match failed: EQUALS
+  $ | data types don't match (NULL:NUMBER)
+  null
+  5
+
+classpath:com/api/automation/postRequest/postRequest.feature:23
+21:50:55.076 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:50:56.794 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:50:56.952 [main] ERROR com.intuit.karate - classpath:com/api/automation/postRequest/postRequestUsingExternalFile.feature:9
+* def jsonBody = read("../data/jobEntry.json")
+js failed:
+>>>>
+01: read("../data/jobEntry.json")
+<<<<
+org.graalvm.polyglot.PolyglotException: java.io.FileNotFoundException: D:\Karate Framework\KarateFramework_Java\KarateFramwork\target\test-classes\com\api\automation\postRequest\..\data\jobEntry.json (The system cannot find the path specified)
+- com.intuit.karate.resource.FileResource.getStream(FileResource.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:99)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:95)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:53)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:124)
+- <js>.:program(Unnamed:1)
+
+classpath:com/api/automation/postRequest/postRequestUsingExternalFile.feature:9
+21:52:01.947 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:52:03.562 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:52:04.296 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9090/normal/webapi/add
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 245
+1 > Host: localhost:9090
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":10,"jobTitle":"Software Engg-10","jobDescription":"To develop andriod application","experience":["Micro Soft","JP Morgan","Youtube"],"project":[{"projectName":"Streaming scervic App","technology":["Kotlin","SQL Lite","Gradle","pega"]}]}
+
+21:52:04.391 [main] DEBUG com.intuit.karate - response time in milliseconds: 89
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Wed, 20 Apr 2022 16:22:04 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":10,"jobTitle":"Software Engg-10","jobDescription":"To develop andriod application","experience":["Micro Soft","JP Morgan","Youtube"],"project":[{"projectName":"Streaming scervic App","technology":["Kotlin","SQL Lite","Gradle","pega"]}]}
+21:52:04.399 [main] INFO  com.intuit.karate - [print] {
+  "jobId": 10,
+  "jobTitle": "Software Engg-10",
+  "jobDescription": "To develop andriod application",
+  "experience": [
+    "Micro Soft",
+    "JP Morgan",
+    "Youtube"
+  ],
+  "project": [
+    {
+      "projectName": "Streaming scervic App",
+      "technology": [
+        "Kotlin",
+        "SQL Lite",
+        "Gradle",
+        "pega"
+      ]
+    }
+  ]
+}
+ 
+20:43:28.495 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: com/api/automation/postRequest/SchemaValidation.feature - mismatched input '"' expecting <EOF>
+20:44:21.878 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: com/api/automation/postRequest/SchemaValidation.feature - mismatched input '{' expecting <EOF>
+20:45:07.827 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: com/api/automation/postRequest/SchemaValidation.feature - mismatched input '{' expecting <EOF>
+20:46:14.165 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: com/api/automation/postRequest/SchemaValidation.feature - mismatched input '{' expecting <EOF>
+20:47:08.305 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: com/api/automation/postRequest/SchemaValidation.feature - mismatched input '{' expecting <EOF>
+20:48:38.666 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+20:48:40.963 [main] INFO  com.intuit.karate - karate.env system property was: null 
+20:48:41.699 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9090/normal/webapi/add
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 245
+1 > Host: localhost:9090
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":12,"jobTitle":"Software Engg-12","jobDescription":"To develop andriod application","experience":["Micro Soft","JP Morgan","Youtube"],"project":[{"projectName":"Streaming scervic App","technology":["Kotlin","SQL Lite","Gradle","pega"]}]}
+
+20:48:42.311 [main] DEBUG com.intuit.karate - response time in milliseconds: 607
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Thu, 21 Apr 2022 15:18:42 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":12,"jobTitle":"Software Engg-12","jobDescription":"To develop andriod application","experience":["Micro Soft","JP Morgan","Youtube"],"project":[{"projectName":"Streaming scervic App","technology":["Kotlin","SQL Lite","Gradle","pega"]}]}
+21:42:06.495 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:42:08.183 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:42:08.703 [main] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9090/normal/webapi/add
+1 > Accept: application/json
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 243
+1 > Host: localhost:9090
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.2)
+1 > Accept-Encoding: gzip,deflate
+{"jobId":4,"jobTitle":"Software Engg-4","jobDescription":"To develop andriod application","experience":["Micro Soft","JP Morgan","Youtube"],"project":[{"projectName":"Streaming scervic App","technology":["Kotlin","SQL Lite","Gradle","pega"]}]}
+
+21:42:08.742 [main] DEBUG com.intuit.karate - response time in milliseconds: 36
+1 < 201
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Thu, 21 Apr 2022 16:12:08 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+{"jobId":4,"jobTitle":"Software Engg-4","jobDescription":"To develop andriod application","experience":["Micro Soft","JP Morgan","Youtube"],"project":[{"projectName":"Streaming scervic App","technology":["Kotlin","SQL Lite","Gradle","pega"]}]}
+21:42:08.749 [main] INFO  com.intuit.karate - [print] {
+  "jobId": 4,
+  "jobTitle": "Software Engg-4",
+  "jobDescription": "To develop andriod application",
+  "experience": [
+    "Micro Soft",
+    "JP Morgan",
+    "Youtube"
+  ],
+  "project": [
+    {
+      "projectName": "Streaming scervic App",
+      "technology": [
+        "Kotlin",
+        "SQL Lite",
+        "Gradle",
+        "pega"
+      ]
+    }
+  ]
+}
+ 
+21:42:08.875 [main] DEBUG com.intuit.karate - request:
+2 > POST http://localhost:9090/normal/webapi/add
+2 > Accept: application/xml
+2 > Content-Type: application/xml; charset=UTF-8
+2 > Content-Length: 443
+2 > Host: localhost:9090
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.2)
+2 > Accept-Encoding: gzip,deflate
+<item><jobId>5</jobId><jobTitle>Software Engg-5</jobTitle><jobDescription>To develop IOS application</jobDescription><experience><experience>Google</experience><experience>Apple</experience><experience>Mobile Iron</experience></experience><project><project><projectName>Booking App</projectName><technology><technology>Fullter</technology><technology>SQL Lite</technology><technology>Gradle</technology></technology></project></project></item>
+
+21:42:09.060 [main] DEBUG com.intuit.karate - response time in milliseconds: 185
+2 < 201
+2 < X-Content-Type-Options: nosniff
+2 < X-XSS-Protection: 1; mode=block
+2 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+2 < Pragma: no-cache
+2 < Expires: 0
+2 < X-Frame-Options: DENY
+2 < Content-Type: application/xml
+2 < Transfer-Encoding: chunked
+2 < Date: Thu, 21 Apr 2022 16:12:08 GMT
+2 < Keep-Alive: timeout=60
+2 < Connection: keep-alive
+<Job><jobId>5</jobId><jobTitle>Software Engg-5</jobTitle><jobDescription>To develop IOS application</jobDescription><experience><experience>Google</experience><experience>Apple</experience><experience>Mobile Iron</experience></experience><project><project><projectName>Booking App</projectName><technology><technology>Fullter</technology><technology>SQL Lite</technology><technology>Gradle</technology></technology></project></project></Job>
+21:42:09.070 [main] ERROR com.intuit.karate - classpath:com/api/automation/postRequest/postRequest.feature:23
+And match response.jobId == 5
+match failed: EQUALS
+  $ | data types don't match (NULL:NUMBER)
+  null
+  5
+
+classpath:com/api/automation/postRequest/postRequest.feature:23
+21:42:44.618 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:42:45.676 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:42:45.723 [main] INFO  com.intuit.karate - [print]  Returns function value ===>  function(){ return 10; } 
+21:42:45.731 [main] INFO  com.intuit.karate - [print]  Return any Random number ===>  function() { return Math.floor ((100)*Math.random()) ;} 
+21:42:45.742 [main] INFO  com.intuit.karate - [print]  return string ===> hello world 
+21:44:25.234 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:44:25.238 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1650557665238
+21:44:26.284 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:44:26.327 [main] INFO  com.intuit.karate - [print] ======= In the Background Keyword ============ 
+21:44:26.648 [main] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9090/normal/webapi/all
+1 > Accept: application/json
+1 > Host: localhost:9090
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.2)
+1 > Accept-Encoding: gzip,deflate
+
+
+21:44:26.694 [main] DEBUG com.intuit.karate - response time in milliseconds: 43
+1 < 200
+1 < X-Content-Type-Options: nosniff
+1 < X-XSS-Protection: 1; mode=block
+1 < Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 < Pragma: no-cache
+1 < Expires: 0
+1 < X-Frame-Options: DENY
+1 < Content-Type: application/json
+1 < Transfer-Encoding: chunked
+1 < Date: Thu, 21 Apr 2022 16:14:26 GMT
+1 < Keep-Alive: timeout=60
+1 < Connection: keep-alive
+[{"jobId":1,"jobTitle":"Software Engg","jobDescription":"To develop andriod application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Movie App","technology":["Kotlin","SQL Lite","Gradle"]}]},{"jobId":12,"jobTitle":"Software Engg-12","jobDescription":"To develop andriod application","experience":["Micro Soft","JP Morgan","Youtube"],"project":[{"projectName":"Streaming scervic App","technology":["Kotlin","SQL Lite","Gradle","pega"]}]},{"jobId":4,"jobTitle":"Software Engg-4","jobDescription":"To develop andriod application","experience":["Micro Soft","JP Morgan","Youtube"],"project":[{"projectName":"Streaming scervic App","technology":["Kotlin","SQL Lite","Gradle","pega"]}]},{"jobId":5,"jobTitle":"Software Engg-5","jobDescription":"To develop IOS application","experience":["Google","Apple","Mobile Iron"],"project":[{"projectName":"Booking App","technology":["Fullter","SQL Lite","Gradle"]}]}]
+21:44:26.730 [main] INFO  com.intuit.karate - [print] [
+  {
+    "jobId": 1,
+    "jobTitle": "Software Engg",
+    "jobDescription": "To develop andriod application",
+    "experience": [
+      "Google",
+      "Apple",
+      "Mobile Iron"
+    ],
+    "project": [
+      {
+        "projectName": "Movie App",
+        "technology": [
+          "Kotlin",
+          "SQL Lite",
+          "Gradle"
+        ]
+      }
+    ]
+  },
+  {
+    "jobId": 12,
+    "jobTitle": "Software Engg-12",
+    "jobDescription": "To develop andriod application",
+    "experience": [
+      "Micro Soft",
+      "JP Morgan",
+      "Youtube"
+    ],
+    "project": [
+      {
+        "projectName": "Streaming scervic App",
+        "technology": [
+          "Kotlin",
+          "SQL Lite",
+          "Gradle",
+          "pega"
+        ]
+      }
+    ]
+  },
+  {
+    "jobId": 4,
+    "jobTitle": "Software Engg-4",
+    "jobDescription": "To develop andriod application",
+    "experience": [
+      "Micro Soft",
+      "JP Morgan",
+      "Youtube"
+    ],
+    "project": [
+      {
+        "projectName": "Streaming scervic App",
+        "technology": [
+          "Kotlin",
+          "SQL Lite",
+          "Gradle",
+          "pega"
+        ]
+      }
+    ]
+  },
+  {
+    "jobId": 5,
+    "jobTitle": "Software Engg-5",
+    "jobDescription": "To develop IOS application",
+    "experience": [
+      "Google",
+      "Apple",
+      "Mobile Iron"
+    ],
+    "project": [
+      {
+        "projectName": "Booking App",
+        "technology": [
+          "Fullter",
+          "SQL Lite",
+          "Gradle"
+        ]
+      }
+    ]
+  }
+]
+ 
+21:44:27.380 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) src/test/java/com/api/automation/getRequest/getRequest.feature
+21:44:39.805 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:44:40.893 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:44:40.939 [main] INFO  com.intuit.karate - [print]  Returns function value ===>  10 
+21:44:40.966 [main] ERROR com.intuit.karate - classpath:com/api/automation/postRequest/JavaScriptFunctions.feature:6
+* def getRandomNumber = function() { return Math.floor(100) * Math.random()) ;}
+js failed:
+>>>>
+01: (function() { return Math.floor(100) * Math.random()) ;})
+<<<<
+org.graalvm.polyglot.PolyglotException: SyntaxError: Unnamed:1:52 Expected ; but found )
+(function() { return Math.floor(100) * Math.random()) ;})
+                                                    ^
+
+- org.graalvm.polyglot.Context.eval(Context.java:401)
+- com.intuit.karate.graal.JsEngine.evalForValue(JsEngine.java:141)
+- com.intuit.karate.graal.JsEngine.eval(JsEngine.java:137)
+- com.intuit.karate.core.ScenarioEngine.evalJs(ScenarioEngine.java:1252)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2205)
+- com.intuit.karate.core.ScenarioEngine.evalKarateExpression(ScenarioEngine.java:2124)
+- com.intuit.karate.core.ScenarioEngine.evalAndCastTo(ScenarioEngine.java:1316)
+
+classpath:com/api/automation/postRequest/JavaScriptFunctions.feature:6
+21:45:26.615 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+21:45:27.692 [main] INFO  com.intuit.karate - karate.env system property was: null 
+21:45:27.740 [main] INFO  com.intuit.karate - [print]  Returns function value ===>  10 
+21:45:27.755 [main] INFO  com.intuit.karate - [print]  Return any Random number ===>  66 
+21:45:27.765 [main] INFO  com.intuit.karate - [print]  return string ===> hello world 

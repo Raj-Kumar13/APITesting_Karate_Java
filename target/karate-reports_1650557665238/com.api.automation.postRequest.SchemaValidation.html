@@ -10,7 +10,7 @@
     <script type="text/javascript" src="res/jquery.tablesorter.min.js"></script>
     <script type="text/javascript" src="res/bootstrap.min.js"></script>
     <script type="text/javascript" src="res/karate-report.js"></script>
-    <title>com.api.automation.getRequest.XmlValidation</title>  
+    <title>com.api.automation.postRequest.SchemaValidation</title>  
   </head>
   <body>   
     <div id="root-container">
@@ -30,13 +30,13 @@
     <div>Scenarios</div>
   </div>         
   <div id="nav-date">
-    <div>2022-04-17 09:01:25 pm</div>
+    <div>2022-04-21 08:48:42 pm</div>
   </div>        
 </div>
 
         <div class="nav-container">
           <div class="nav-item passed">
-            <a href="#[1:6]"><span>[1:6]</span> <span>To validate Properties of XML format</span></a>
+            <a href="#[1:6]"><span>[1:6]</span> <span>to create a resource and validate schema</span></a>
           </div>
         </div>
       </div>
@@ -45,8 +45,8 @@
           <a href="karate-summary.html">Summary</a><span class="feature-label">|</span>
           <a href="karate-tags.html">Tags</a><span class="feature-label">|</span>
           <span class="feature-label">Feature:</span>
-          <span class="feature-path">com/api/automation/getRequest/XmlValidation.feature</span><span class="feature-label">|</span>
-          <span class="feature-name">To validate XML formate data</span>
+          <span class="feature-path">com/api/automation/postRequest/SchemaValidation.feature</span><span class="feature-label">|</span>
+          <span class="feature-name">To validate schema using JSON Formate</span>
           <span class="feature-description"></span>
         </div>
         <div class="scenario">
@@ -57,12 +57,12 @@
               </div>
               <div class="scenario-keyword">
                 Scenario: <span>[1:6]</span>
-                <span class="scenario-name">To validate Properties of XML format</span>
+                <span class="scenario-name">to create a resource and validate schema</span>
                 <span></span>
               </div>
             </div>
             <div class="scenario-time passed">
-              <span>ms:</span>&nbsp;<span>374</span>
+              <span>ms:</span>&nbsp;<span>1325</span>
             </div>
           </div>
           <div class="step-row">
@@ -94,7 +94,7 @@
 
   
 
-  <div class="preformatted" data-parent="0.4">21:01:25.328 karate.env system property was: null 
+  <div class="preformatted" data-parent="0.4">20:48:40.968 karate.env system property was: null 
 </div>   
 
   
@@ -111,7 +111,7 @@
       <div class="step-ref passed">7</div>
       
       <div class="step-cell passed">
-        <span>Given</span>&nbsp;<span>path &#39;/normal/webapi/all&#39;</span>
+        <span>Given</span>&nbsp;<span>path &quot;/normal/webapi/add&quot;</span>
       </div>
     </div>
     <div class="time-cell passed">1</div>
@@ -139,10 +139,10 @@
       <div class="step-ref passed">8</div>
       
       <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>header Accept = &quot;application/xml&quot;</span>
+        <span>*</span>&nbsp;<span>def jsonBody = read(&quot;data/jobEntry.json&quot;)</span>
       </div>
     </div>
-    <div class="time-cell passed">1</div>
+    <div class="time-cell passed">79</div>
   </div>
 
    
@@ -167,10 +167,10 @@
       <div class="step-ref passed">9</div>
       
       <div class="step-cell passed">
-        <span>When</span>&nbsp;<span>method get</span>
+        <span>And</span>&nbsp;<span>request jsonBody</span>
       </div>
     </div>
-    <div class="time-cell passed">339</div>
+    <div class="time-cell passed">1</div>
   </div>
 
    
@@ -179,30 +179,35 @@
 
   
 
-  <div class="preformatted" data-parent="0.9">21:01:25.663 request:
-1 &gt; GET http://localhost:9090/normal/webapi/all
-1 &gt; Accept: application/xml
-1 &gt; Host: localhost:9090
-1 &gt; Connection: Keep-Alive
-1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.2)
-1 &gt; Accept-Encoding: gzip,deflate
+     
 
+  
 
-21:01:25.698 response time in milliseconds: 32
-1 &lt; 200
-1 &lt; X-Content-Type-Options: nosniff
-1 &lt; X-XSS-Protection: 1; mode=block
-1 &lt; Cache-Control: no-cache, no-store, max-age=0, must-revalidate
-1 &lt; Pragma: no-cache
-1 &lt; Expires: 0
-1 &lt; X-Frame-Options: DENY
-1 &lt; Content-Type: application/xml
-1 &lt; Transfer-Encoding: chunked
-1 &lt; Date: Sun, 17 Apr 2022 15:31:25 GMT
-1 &lt; Keep-Alive: timeout=60
-1 &lt; Connection: keep-alive
-&lt;List&gt;&lt;item&gt;&lt;jobId&gt;1&lt;/jobId&gt;&lt;jobTitle&gt;Software Engg&lt;/jobTitle&gt;&lt;jobDescription&gt;To develop andriod application&lt;/jobDescription&gt;&lt;experience&gt;&lt;experience&gt;Google&lt;/experience&gt;&lt;experience&gt;Apple&lt;/experience&gt;&lt;experience&gt;Mobile Iron&lt;/experience&gt;&lt;/experience&gt;&lt;project&gt;&lt;project&gt;&lt;projectName&gt;Movie App&lt;/projectName&gt;&lt;technology&gt;&lt;technology&gt;Kotlin&lt;/technology&gt;&lt;technology&gt;SQL Lite&lt;/technology&gt;&lt;technology&gt;Gradle&lt;/technology&gt;&lt;/technology&gt;&lt;/project&gt;&lt;/project&gt;&lt;/item&gt;&lt;/List&gt;
-</div>   
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.10">
+      <div class="step-ref passed">10</div>
+      
+      <div class="step-cell passed">
+        <span>And</span>&nbsp;<span>headers {Accept : &quot;application/json&quot;, Content-Type: &quot;application/json&quot;}</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1</div>
+  </div>
+
+   
+  
+  
+
+  
+
+     
 
   
 
@@ -218,7 +223,60 @@
       <div class="step-ref passed">11</div>
       
       <div class="step-cell passed">
-        <span>Then</span>&nbsp;<span>status 200</span>
+        <span>When</span>&nbsp;<span>method post</span>
+      </div>
+    </div>
+    <div class="time-cell passed">1210</div>
+  </div>
+
+   
+  
+  
+
+  
+
+  <div class="preformatted" data-parent="0.11">20:48:41.699 request:
+1 &gt; POST http://localhost:9090/normal/webapi/add
+1 &gt; Accept: application/json
+1 &gt; Content-Type: application/json; charset=UTF-8
+1 &gt; Content-Length: 245
+1 &gt; Host: localhost:9090
+1 &gt; Connection: Keep-Alive
+1 &gt; User-Agent: Apache-HttpClient/4.5.13 (Java/16.0.2)
+1 &gt; Accept-Encoding: gzip,deflate
+{&quot;jobId&quot;:12,&quot;jobTitle&quot;:&quot;Software Engg-12&quot;,&quot;jobDescription&quot;:&quot;To develop andriod application&quot;,&quot;experience&quot;:[&quot;Micro Soft&quot;,&quot;JP Morgan&quot;,&quot;Youtube&quot;],&quot;project&quot;:[{&quot;projectName&quot;:&quot;Streaming scervic App&quot;,&quot;technology&quot;:[&quot;Kotlin&quot;,&quot;SQL Lite&quot;,&quot;Gradle&quot;,&quot;pega&quot;]}]}
+
+20:48:42.312 response time in milliseconds: 607
+1 &lt; 201
+1 &lt; X-Content-Type-Options: nosniff
+1 &lt; X-XSS-Protection: 1; mode=block
+1 &lt; Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+1 &lt; Pragma: no-cache
+1 &lt; Expires: 0
+1 &lt; X-Frame-Options: DENY
+1 &lt; Content-Type: application/json
+1 &lt; Transfer-Encoding: chunked
+1 &lt; Date: Thu, 21 Apr 2022 15:18:42 GMT
+1 &lt; Keep-Alive: timeout=60
+1 &lt; Connection: keep-alive
+{&quot;jobId&quot;:12,&quot;jobTitle&quot;:&quot;Software Engg-12&quot;,&quot;jobDescription&quot;:&quot;To develop andriod application&quot;,&quot;experience&quot;:[&quot;Micro Soft&quot;,&quot;JP Morgan&quot;,&quot;Youtube&quot;],&quot;project&quot;:[{&quot;projectName&quot;:&quot;Streaming scervic App&quot;,&quot;technology&quot;:[&quot;Kotlin&quot;,&quot;SQL Lite&quot;,&quot;Gradle&quot;,&quot;pega&quot;]}]}
+</div>   
+
+  
+
+</div>
+</div>
+          <div><div>
+  
+
+  
+
+  <div class="step-row">
+    <div class="step-container" id="0.12">
+      <div class="step-ref passed">12</div>
+      
+      <div class="step-cell passed">
+        <span>Then</span>&nbsp;<span>status 201</span>
       </div>
     </div>
     <div class="time-cell passed">0</div>
@@ -239,75 +297,14 @@
           <div><div>
   
 
-  <div class="step-row">
-    <div class="step-container">
-      <div class="step-ref passed"></div>
-      
-      <div class="step-cell comment">#And print response</div>
-    </div>
-    <div class="time-cell comment"></div>            
-  </div>
+  
 
   <div class="step-row">
-    <div class="step-container">
-      <div class="step-ref passed"></div>
-      
-      <div class="step-cell comment">#And match response/List/item/jobId == &quot;1&quot;</div>
-    </div>
-    <div class="time-cell comment"></div>            
-  </div>
-
-  <div class="step-row">
-    <div class="step-container">
-      <div class="step-ref passed"></div>
-      
-      <div class="step-cell comment">#And match response/List/item/jobTitle == &quot;Software Engg&quot;</div>
-    </div>
-    <div class="time-cell comment"></div>            
-  </div>
-
-  <div class="step-row">
-    <div class="step-container">
-      <div class="step-ref passed"></div>
-      
-      <div class="step-cell comment">#And match response/List/item/jobDescrition == &quot;To develop android application&quot;</div>
-    </div>
-    <div class="time-cell comment"></div>            
-  </div>
-
-  <div class="step-row">
-    <div class="step-container">
-      <div class="step-ref passed"></div>
-      
-      <div class="step-cell comment">#And match response/List/item/experience/experience[1] == &quot;Google&quot;</div>
-    </div>
-    <div class="time-cell comment"></div>            
-  </div>
-
-  <div class="step-row">
-    <div class="step-container">
-      <div class="step-ref passed"></div>
-      
-      <div class="step-cell comment">#And match response/List/item/exprience/experience[2] == &quot;Apple&quot;</div>
-    </div>
-    <div class="time-cell comment"></div>            
-  </div>
-
-  <div class="step-row">
-    <div class="step-container">
-      <div class="step-ref passed"></div>
-      
-      <div class="step-cell comment">#And match response/List/item/exprience/experience[3] == &quot;Mobile Iron&quot;</div>
-    </div>
-    <div class="time-cell comment"></div>            
-  </div>
-
-  <div class="step-row">
-    <div class="step-container" id="0.19">
-      <div class="step-ref passed">19</div>
+    <div class="step-container" id="0.13">
+      <div class="step-ref passed">13</div>
       
       <div class="step-cell passed">
-        <span>And</span>&nbsp;<span>match response/List/item/project/project/projectName == &quot;Movie App&quot;</span>
+        <span>And</span>&nbsp;<span>match response ==</span>
       </div>
     </div>
     <div class="time-cell passed">32</div>
@@ -315,7 +312,13 @@
 
    
   
-  
+  <div class="preformatted" data-parent="0.13">{
+   &quot;jobId&quot;: #number,
+   &quot;jobTitle&quot;: #string,
+   &quot;jobDescription&quot;: #string,
+   &quot;experience&quot;: #[] #string,
+   &quot;project&quot;: #[] #object	   
+}</div>
 
   
 
